@@ -14,5 +14,5 @@ things non-oboe players wouldn't normally know
 the navbar "email" link leads here (an email form)
 
 # sources
-cites sources for factual statements
+gives links to outside articles (mostly stating the absurdity of them), and cites sources for factual statements
 
