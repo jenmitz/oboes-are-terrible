@@ -1,23 +1,31 @@
-/* 
-<div class="card bg-light col-lg-3 m-2">
-    <div class="card-body">
-        video here
-    </div>
-    <div class="card-text">
-       text here
-        <br>
-    </div>
-</div>
-*/
+.container {
+    font-size: medium;
+}
 
+.navbar {
+    margin-bottom: 20px;
+}
 
-<div class="card bg-light col-lg-3">
-            <div class="card-body">
-            <iframe width="300" height="200" src="https://www.youtube.com/embed/eDrVtXPpuRI?start=104" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="card-text">
-            Here's another video that defends the oboe's honor (of which it has very little). This video is a bit long, so I've taken the 
-            liberty to skip to the oboe solo. You'll find great technique and a fantastic solo. Here's a Mozart concerto by the Frankfurt Radio Symphony:                  
-                <br>
-            </div>
-        </div>
+.page-footer {
+    background-color: #8b1214;
+    color: #E3C4C5;
+}
+
+.card {
+    float: right;
+    width: 40%;
+    margin: 5px;
+}
+
+.blockquote {
+    font-size: medium;
+}
+
+.display-3 {
+    font-family: 'Satisfy', cursive;
+}
+
+.img-responsive {
+    float: left;
+    margin: 10px;
+}
