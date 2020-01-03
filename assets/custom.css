@@ -21,7 +21,7 @@
     font-size: medium;
 }
 
-.display-3 {
+.display-3, #theObvious, #absurdUnknown {
     font-family: 'Satisfy', cursive;
 }
 
