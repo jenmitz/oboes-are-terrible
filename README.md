@@ -16,3 +16,12 @@ the navbar "email" link leads here (an email form)
 # sources
 gives links to outside articles (mostly stating the absurdity of them), and cites sources for factual statements
 
+# examples
+embedded video examples of
+many things talked about on
+other pages
+
+# disclaimer
+a disclaimer for the website,
+saying i don't hate oboe players
+
