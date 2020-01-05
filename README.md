@@ -1,3 +1,5 @@
+note: i'm still in process of putting the entire site together into one coherent piece. there will be discrepancies like text referring to things that don't exist yet, and other things of that nature. 
+
 # oboes-are-terrible
 a website devoted to explaining why oboes are awful instruments
 
