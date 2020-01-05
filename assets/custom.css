@@ -1,9 +1,21 @@
-.container {
+body {
+    background-image: url("images/mirrored_squares.png");
+    background-color: transparent;
+    font-family: 'Darker Grotesque';
     font-size: medium;
 }
 
-.navbar {
-    margin-bottom: 20px;
+p, h5 {
+    color: #484848;
+} 
+
+h1 {
+    font-family: 'Fondamento', cursive;
+}
+
+.container {
+    font-size: larger;
+    background-color: lightgray;
 }
 
 .page-footer {
@@ -14,18 +26,32 @@
 .card {
     float: right;
     width: 40%;
-    margin: 5px;
+    margin: 3px;
 }
 
 .blockquote {
     font-size: medium;
+    font-style: italic;
+    text-align: center;
+    color: #484848;
+    padding: 5px;
+    font-family: 'Fondamento', cursive;
 }
 
-.display-3, #theObvious, #absurdUnknown {
-    font-family: 'Satisfy', cursive;
+.display-4, #theObvious, #absurdUnknown {
+    font-family: 'Fondamento', cursive;
 }
 
 .img-responsive {
     float: left;
     margin: 10px;
+}
+
+.navbar {
+    font-size: large;
+}
+
+.card-text {
+    text-align: center;
+    padding: 10px;
 }
