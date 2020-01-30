@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)file:///Users/Jenmitz/100-days-of-code/Projects/rockpaperscissors.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        /* const loseCond = (player === "scissors" && ai === "paper") || (player === "rock" && ai === "paper") || (player === "paper" && ai === "scissors");
+        const winCond = (player === "rock" && ai === "scissors") || (player === "paper" && ai === "rock") || (player === "scissors" && ai === "paper"); */
+    const ai = ["rock", "paper", "scissors"];
+    const choices = ["rock", "paper", "scissors"];
+    let aiRandom = ai[Math.floor(Math.random() * ai.length)];
+    var playerInput = ["rock", "paper", "scissors"];
+    // const error = alert("Please choose only rock, paper, or scissors. There are literally only three options. I believe in you."); 
+    
+    
+    const yesNo = confirm("Would you like to play a game of rock, paper, scissors?");   
+    
+    if (yesNo === false) {
+        alert("Fine then, don't have fun.");
+        preventDefault();
+    } else (yesNo === true); {
+        let start = prompt("Great! Choose 'rock', 'paper', or 'scissors'.");
+    };
+    
+    let aiChoice = alert("Your opponent chose " + aiRandom + " .");
+    
+    if (playerInput === "scissors" && ai === "paper") {
+        alert("You lose!");
+    } else if (playerInput === "rock" && ai === "paper") {
+        alert("You lose!");
+    } else if(playerInput === "paper" && ai === "scissors") {
+        alert("You lose!");
+    } else if (playerInput === "rock" && ai === "scissors") {
+        alert("You win!");
+    } else if (playerInput === "paper" && ai === "rock") {
+        alert("You win!");
+    } else if (playerInput === "scissors" && ai === "paper") {
+        alert("You win!");
+    } else if (playerInput === "scissors" && ai === "scissors") {
+        alert("It's a tie!");
+    } else if (playerInput === "rock" && ai === "rock") {
+        alert("It's a tie!");
+    } else if (playerInput === "paper" && ai === "paper"); {
+        alert("It's a tie!");
+    };
+    
+    // ================== *** ================== //
+    /*
+
+    basic function to work towards:
+    
+    > several variables, including win and lose conditions
+    > prompt; user inputs a value from array (r, p, or s)
+    > store user input in variable
+    > this triggers ai picking a random value from array
+    > store ai choice in a variable
+    > once these are both done, there's a comparion between the two variables
+    > comparison determines the winner based on preset win and lose conditions
+    > states what the ai chose
+    > states who won
+    > possible to state ai choice and who won in one alert
+    
+    */
+    // ================== *** ================== //
+
+
+    /* if (lose === true) {
+        alert("the computer chose " + aiRandom);
+        alert("you lose");
+    } else if (win === lose) {
+        alert("the computer chose " + aiRandom);
+        alert("it's a draw.")
+    } else (win === true); {
+        alert("the computer chose " + aiRandom);
+        alert("you win");
+    };
+    */
+
+
+
+
+
+
+
+
+
+
+/* let user = ["r", "p", "s"];
+    let com = ["r", "p", "s"];
+    let lose = (user === "s" && com === "p") || (user === "r" && com === "p") || (user === "p" && com === "s");
+    let win = (user === "r" && com === "s") || (user === "p" && com === "r") || (user === "s" && com === "p");
+
+    prompt("choose r, p, or s");
+    if (lose === true); {
+        alert("you lose");
+    }
+    */
+
+
+    </script>
+
+
+</body></html>
